@@ -1,0 +1,211 @@
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  /* font-style: normal; */
+}
+
+/* Shared Style */
+.margin{
+    margin: 20px 140px;
+}
+.text-align{
+    text-align: center;
+}
+
+.btn-1{
+    background-color: rgba(254, 163, 1, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    padding: 15px 60px;
+    border: none;
+}
+/* Nav Style */
+.nav-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 140px;
+
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav2 ul a{
+    text-decoration: none;
+}
+.nav2 ul li{
+    list-style: none;
+}
+#li-1{
+    color: rgba(254, 163, 1, 1);
+    font-weight: bold;
+}
+#li-2{
+    color: skyblue;
+    font-weight: bold;
+}
+#li-3{
+    color: rgba(5, 212, 223, 1);
+    font-weight: bold;
+}
+#li-4{
+    color: rgba(93, 88, 239, 1);
+    font-weight: bold;
+}
+
+
+.menu-icon{
+    width: 23px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+}
+.menu-bar{
+    visibility: hidden;
+}
+
+/* Hero Section */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-title{
+    font-size: 3.5rem;
+}
+.span-1{
+    color: orange;
+}
+.span-2{
+    color: skyblue;
+}
+.hero-desc{
+    font-size: 1.25rem;
+}
+
+.btn-primary{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+}
+/* Standard Curriculum Section */
+
+.card1{
+    display: block;
+}
+.standard-heading{
+    font-size: 3rem;
+    text-align: center;
+}
+.Standard-Curriculum{
+    background-image: url('./assets/bg.png');
+}
+
+.card-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.card1{
+    height: 470px;
+    border-radius: 18px;
+    background: linear-gradient(180deg,rgb(245, 234, 234),white);
+}
+.card2{
+    height: 470px;
+    border-radius: 18px;
+    background: linear-gradient(180deg, rgb(237, 237, 203), white);
+}
+
+.card3{
+    height: 470px;
+    border-radius: 18px;
+    background: linear-gradient(180deg, rgb(239, 239, 248), white);
+}
+
+.read-more1{
+    text-decoration: none;
+    color: rgba(100, 200, 255, 1);
+}
+
+.read-more2{
+    text-decoration: none;
+    color: rgba(240, 170, 0, 1);
+}
+.read-more3{
+    text-decoration: none;
+    color: rgba(135, 0, 255, 1);
+}
+
+.btn-arrow{
+    height: 60px;
+    width: 60px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    nav h3, nav ul a, nav button{
+        display: none;
+    }
+    nav{
+        margin: 10px 16px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(192, 238, 10);
+    }
+    .menu-bar{
+        visibility: visible;
+    }
+    .hero{
+        margin: 5px 5px;
+        flex-direction: column-reverse;
+    }
+    .hero img{
+        width: 100%;
+    }
+    .hero-1{
+        text-align: center;
+    }
+    .for-btn{
+        text-align: center;
+    }
+    .btn-arrow-0{
+        display: none;
+    }
+    .card-items{
+        flex-direction: column;
+    }
+    .Standard-Curriculum{
+        margin: 10px 16px;
+    }
+    
+}
