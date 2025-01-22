@@ -6,6 +6,15 @@
 }
 
 /* Shared Style */
+/* .head{
+    background-color: rgb(234, 230, 225);
+}
+main{
+    background-color: rgb(234, 230, 225);
+} */
+ body{
+    background-color: rgb(234, 230, 225);
+ }
 .margin{
     margin: 20px 140px;
 }
@@ -105,7 +114,9 @@ nav{
     border-radius: 12px;
 }
 /* Standard Curriculum Section */
-
+.btn-arrow-0{
+    margin-top: 20px;
+}
 .card1{
     display: block;
 }
@@ -162,6 +173,137 @@ nav{
     border: none;
     background-color: orange;
 }
+
+/* .our-stories-cards{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+} */
+/* our stories section */
+.Our-Stories{
+    background-image: url('./assets/bg.png');
+}
+.big-card{
+    border-radius: 16px;
+    border: none;
+}
+.big-card-title{
+    padding: 0 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.big-card-desc{
+    color: rgba(102, 102, 102, 1);
+    font-size: medium;
+    padding: 0 30px;
+}
+
+.our-stories-cards{
+    display: flex;
+    gap: 20px;
+}
+.cards-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.btn-div{
+    margin-top: -30px;
+}
+.card-btn1{
+    background-color: rgba(60, 216, 232, 1);
+    color: white;
+    border-radius: 48px;
+    border: none;
+    padding: 15px 20px;
+    margin-left: 35px;
+    
+}
+.card-btn2{
+    background-color: rgba(149, 178, 38, 1);
+    color: white;
+    border-radius: 48px;
+    border: none;
+    padding: 15px 20px;
+    margin-left: 35px;
+}
+.card-btn3{
+    background-color: rgba(93, 88, 240, 1);
+    color: white;
+    border-radius: 48px;
+    border: none;
+    padding: 15px 20px;
+    margin-left: 35px;
+}
+.card-btn4{
+    background-color: rgba(149, 178, 38, 1);
+    color: white;
+    border-radius: 48px;
+    border: none;
+    padding: 15px 20px;
+    margin-left: 35px;
+}
+.card-btn5{
+    background-color: rgba(149, 178, 38, 1);
+    color: white;
+    border-radius: 48px;
+    border: none;
+    padding: 15px 20px;
+    margin-left: 35px;
+}
+.our-stories-title{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.big-card{
+    background-color: white;
+    border-radius: 20px;
+
+}
+.big-card img{
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+.card-item-1{
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.card-item-1 img{
+    border-radius: 20px 20px 0 0;
+}
+.card-item-2{
+    background-color: white;
+    border-radius: 20px;
+}
+.card-item-2 img{
+    border-radius: 20px 20px 0 0;
+}
+.card-item-3{
+    background-color: white;
+    border-radius: 20px;
+}
+.card-item-3 img{
+    border-radius: 20px 20px 0 0;
+}
+.card-item-4{
+    background-color: white;
+    border-radius: 20px;
+}
+.card-item-4 img{
+    border-radius: 20px 20px 0 0;
+}
+.card-description{
+    padding-left: 20px;
+    font-weight: bold;
+}
+.btn-primary-div{
+    margin-top: 20px;
+}
+
 
 
 
