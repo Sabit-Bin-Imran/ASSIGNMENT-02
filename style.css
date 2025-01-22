@@ -310,7 +310,6 @@ footer{
     align-items: center;
     
     background-color: rgba(1, 172, 253, 1);
-    height: 520px;
     padding: 100px;
     margin: 0;
 
@@ -323,9 +322,27 @@ footer{
 .footer2 li{
     list-style: none;
 }
-
-
-
+.footer1-img-title h3{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+}
+.footer1 p{
+    color: rgba(255, 255, 255, 1);
+}
+.footer2-title{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.footer2 li{
+    color: white;
+}
+.footer3 h2{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
 
 
 
@@ -378,13 +395,16 @@ footer{
 
         
     }
-    .our-stories-cards{
-        /
-        /* max-width: 100%; */
-    }
 
     .cards-section{
         grid-template-columns: repeat(2, 1fr);
         overflow: hidden;
     }
+    footer{
+        flex-direction: column;
+    }
+    .footer1, .footer2, .footer3{
+       text-align: left;
+    }
+    
 }
