@@ -84,7 +84,8 @@ nav{
     margin: 5px 0;
 }
 .menu-bar{
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
 }
 
 /* Hero Section */
@@ -303,8 +304,25 @@ nav{
 .btn-primary-div{
     margin-top: 20px;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: rgba(1, 172, 253, 1);
+    height: 520px;
+    padding: 100px;
+    margin: 0;
 
-
+}
+.footer1-img-title{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.footer2 li{
+    list-style: none;
+}
 
 
 
@@ -325,7 +343,8 @@ nav{
         border-bottom: 1px solid rgb(192, 238, 10);
     }
     .menu-bar{
-        visibility: visible;
+        /* visibility: visible; */
+        display: block;
     }
     .hero{
         margin: 5px 5px;
@@ -347,7 +366,25 @@ nav{
         flex-direction: column;
     }
     .Standard-Curriculum{
-        margin: 10px 16px;
+        margin: 5px 5px;
     }
-    
+    .big-card{
+        display: none;
+    }
+    .Our-Stories{
+        margin: 5px 5px;
+        /* width: 100%;
+        height: 770px; */
+
+        
+    }
+    .our-stories-cards{
+        /
+        /* max-width: 100%; */
+    }
+
+    .cards-section{
+        grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
+    }
 }
